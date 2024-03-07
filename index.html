@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./favicon/favicon-16x16.png"
+        />
+        <link
+            rel="mask-icon"
+            href="./favicon/safari-pinned-tab.svg"
+            color="#5bbad5"
+        />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        <title>Quote Generator</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <article class="quote-container" id="quote-container">
+            <!-- Quote -->
+            <blockquote class="quote-text">
+                <i class="fas fa-quote-left"></i>
+                <span id="quote"
+                    >We take the time to share who we really are, and we try to
+                    know and learn from those around us. Without forgetting, of
+                    course, Wheaton's law.
+                </span>
+            </blockquote>
+            <!-- Author -->
+            <div class="quote-author"><p id="author">WWG</p></div>
+            <!-- Buttons -->
+            <div class="button-container">
+                <button class="twitter-button" id="twitter" title="Tweet This!">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button id="new-quote">New Quote</button>
+            </div>
+        <!-- Script -->
+        <script type="module" src="index.js"></script>
+    </body>
+</html>
